@@ -1,0 +1,11 @@
+[package]
+name = "waybar-dnd"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+description = "dnd switch for waybar"
+license = "MIT"
+
+[profile.release]
+lto = "thin"
+strip = true

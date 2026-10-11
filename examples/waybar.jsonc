@@ -1,0 +1,9 @@
+{
+  "custom/dnd": {
+    "exec": "waybar-dnd status",
+    "return-type": "json",
+    "interval": 5,
+    "format": "{}",
+    "on-click": "waybar-dnd toggle"
+  }
+}
